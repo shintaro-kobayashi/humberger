@@ -20,19 +20,19 @@ header {
   flex-basis: 70%;
 }
 
-header__innner {
+.header__innner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header__innner h1 {
+.header__innner h1 {
   padding: 4rem;
   font-size: 3rem;
   color: #707070;
 }
 
-header__seach-form {
+.header__seach-form {
   /* margin: 65px 65px 65px 0; */
   padding: 4rem;
 }

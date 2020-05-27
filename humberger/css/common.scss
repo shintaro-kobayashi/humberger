@@ -9,7 +9,7 @@ body {
   display: flex;
 }
 
-.wrapper-left-contents{
+.wrapper-left-contents {
   width: 100%;
 }
 // --------------------header--------------------
@@ -19,13 +19,15 @@ header {
   height: 217px;
   background: #fff7ef;
   flex-basis: 70%;
-  
+}
+
+.header {
   &__innner {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  
+
   &__innner h1 {
     padding: 4rem;
     font-size: 3rem;
@@ -133,9 +135,9 @@ input.font-awesome {
 .contents2 dl {
   width: 90%;
   background-color: #ffffff;
-margin: 2rem;
-bottom: 1rem;
-opacity: 0.8;
+  margin: 2rem;
+  bottom: 1rem;
+  opacity: 0.8;
 }
 
 .contents1 dt,
