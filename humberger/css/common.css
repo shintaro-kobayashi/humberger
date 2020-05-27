@@ -83,6 +83,7 @@ input.font-awesome {
 .hero img {
   height: 530px;
   width: 100%;
+  object-fit: cover;
 }
 
 .hero p {
