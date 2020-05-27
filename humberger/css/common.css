@@ -124,18 +124,16 @@ input.font-awesome {
 .contents1 .text,
 .contents2 .text {
   position: absolute;
-  bottom: 20px;
-  padding: 2rem;
-  margin: 2rem;
+  bottom: 2rem;
 }
 
 .contents1 dl,
 .contents2 dl {
-  width: 100%;
+  width: 90%;
   background-color: #ffffff;
-  margin: 1.5rem;
+  margin: 2rem;
+  bottom: 1rem;
   opacity: 0.8;
-  bottom: 1.5rem;
 }
 
 .contents1 dt,
