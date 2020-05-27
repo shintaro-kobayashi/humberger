@@ -1,38 +1,37 @@
 @charset "UTF-8";
 html,
 body {
-  max-width: 1920px;
+  max-width: 100%;
 }
 
 .all-wrapper {
   width: 100%;
   display: flex;
 }
+// --------------------header--------------------
 
 header {
   width: 100%;
   height: 217px;
   background: #fff7ef;
   flex-basis: 70%;
-}
-
-.header__innner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
   
-}
-
-.header__innner h1 {
-  padding: 4rem;
-  font-size: 3rem;
-  color: #707070;
-}
-
-.header__seach-form {
-  /* margin: 65px 65px 65px 0; */
- padding: 4rem;
+  &__innner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  &__innner h1 {
+    padding: 4rem;
+    font-size: 3rem;
+    color: #707070;
+  }
+  // -------------------------seachform-------------------
+  &__seach-form {
+    /* margin: 65px 65px 65px 0; */
+    padding: 4rem;
+  }
 }
 
 input.font-awesome {
@@ -71,7 +70,7 @@ input.font-awesome {
   border: 1px solid #707070;
   opacity: 1;
 }
-
+// -------------------------------hero------------------------------
 .hero {
   position: relative;
   width: 100%;
@@ -90,39 +89,45 @@ input.font-awesome {
   left: 80px;
   font-size: 2em;
 }
+// ----------------------------------main-----------------------------
 
 .main__wrapper {
   display: flex;
   width: 100%;
 }
 
-.contents1, .contents2 {
+.contents1,
+.contents2 {
   background-image: url(../img/three_burgers_on_brown_wooden_@2x.png);
-  width: 625px;
+  width: 100%;
   height: 1193px;
   margin: 100px 75px;
   position: relative;
 }
 
-.contents1 h2, .contents2 h2 {
+.contents1 h2,
+.contents2 h2 {
   font-size: 3em;
   color: #ffffff;
   margin-left: 20px;
 }
 
-.contents1 .border, .contents2 .border {
+.contents1 .border,
+.contents2 .border {
   border: 2px solid #ffffff;
-  width: 60px;
+  width: 2rem;
   margin-left: 20px;
 }
 
-.contents1 .text, .contents2 .text {
+.contents1 .text,
+.contents2 .text {
   position: absolute;
   bottom: 20px;
 }
 
-.contents1 dl, .contents2 dl {
-  width: 580px;
+.contents1 dl,
+.contents2 dl {
+  width: 100%;
   background-color: #ffffff;
   margin-left: 20px;
   margin-top: 20px;
@@ -130,12 +135,14 @@ input.font-awesome {
   bottom: 20px;
 }
 
-.contents1 dt, .contents2 dt {
+.contents1 dt,
+.contents2 dt {
   font-size: 1.5em;
   padding: 10px;
 }
 
-.contents1 dd, .contents2 dd {
+.contents1 dd,
+.contents2 dd {
   margin-top: 15px;
   padding: 10px;
 }
@@ -214,7 +221,6 @@ input.font-awesome {
 .side-menu__ttl {
   font-size: 3rem;
   padding: 3rem 0 3rem 2rem;
-  
 }
 
 .side-menu__list {
@@ -225,11 +231,10 @@ input.font-awesome {
 
 .side-menu__item {
   list-style: none;
-  padding-left:  4rem;
+  padding-left: 4rem;
 }
 
 footer {
-
   line-height: 3rem;
   height: 150px;
   width: 100%;
