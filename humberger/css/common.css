@@ -246,3 +246,10 @@ footer {
   padding: 2rem 0;
   flex-basis: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  /*ウィンドウ幅が最大767pxまでの場合に適用*/
+  __inner h1 {
+    text-align: center;
+  }
+}
