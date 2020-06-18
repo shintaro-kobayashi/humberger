@@ -20,13 +20,13 @@ header {
   flex-basis: 70%;
 }
 
-.header__innner {
+.header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header__innner h1 {
+.header__inner h1 {
   padding: 4rem;
   font-size: 3rem;
   color: #707070;
@@ -247,9 +247,41 @@ footer {
   flex-basis: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   /*ウィンドウ幅が最大767pxまでの場合に適用*/
-  __inner h1 {
+  .header__inner {
+    display: block;
+    position: relative;
+  }
+  .header__inner h1 {
+    width: 100%;
+    padding: 2rem 0;
+    font-size: 2rem;
     text-align: center;
+    align-items: center;
+  }
+  .header__seach-form {
+    /* margin: 65px 65px 65px 0; */
+    position: absolute;
+    padding: 2rem 9rem;
+    z-index: 20;
+  }
+  .hero {
+    position: relative;
+    width: 100%;
+    flex-basis: 70%;
+    z-index: 10;
+  }
+  .hero img {
+    height: 530px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .hero p {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    font-size: 2em;
   }
 }
