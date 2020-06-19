@@ -266,6 +266,9 @@ footer {
     padding: 2rem 9rem;
     z-index: 20;
   }
+  .header input.font-awesome {
+    width: 15rem;
+  }
   .hero {
     position: relative;
     width: 100%;
