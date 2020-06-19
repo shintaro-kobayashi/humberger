@@ -249,29 +249,40 @@ footer {
 
 @media screen and (max-width: 769px) {
   /*ウィンドウ幅が最大767pxまでの場合に適用*/
+  header {
+    height: 180px;
+    background: #fff7ef;
+    flex-basis: 70%;
+  }
   .header__inner {
     display: block;
     position: relative;
   }
   .header__inner h1 {
     width: 100%;
-    padding: 2rem 0;
+    padding-top: 1.5rem;
+    padding-bottom: 0;
     font-size: 1.9rem;
     text-align: center;
     align-items: center;
+    margin: 0;
   }
   .header__seach-form {
     /* margin: 65px 65px 65px 0; */
     position: absolute;
-    padding: 2rem 9rem;
+    padding: 2rem 6rem;
     z-index: 20;
   }
   input {
     width: 20rem;
     height: 2.5rem;
   }
+  .icon {
+    line-height: 2.5;
+    padding-left: 1rem;
+  }
   button {
-    width: 4rem;
+    width: 8rem;
     height: 2.5rem;
   }
   .hero {
