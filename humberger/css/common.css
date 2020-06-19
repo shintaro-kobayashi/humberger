@@ -256,7 +256,7 @@ footer {
   .header__inner h1 {
     width: 100%;
     padding: 2rem 0;
-    font-size: 2rem;
+    font-size: 1.9rem;
     text-align: center;
     align-items: center;
   }
@@ -266,8 +266,13 @@ footer {
     padding: 2rem 9rem;
     z-index: 20;
   }
-  .header input.font-awesome {
-    width: 15rem;
+  input {
+    width: 20rem;
+    height: 2.5rem;
+  }
+  button {
+    width: 4rem;
+    height: 2.5rem;
   }
   .hero {
     position: relative;
